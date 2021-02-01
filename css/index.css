@@ -1,0 +1,133 @@
+/* ALL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-image: url('../img/background.png');
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+/* REGISTER */
+a, label {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #08558b;
+}
+
+/* CONTAINER LOGIN */
+
+#container_login {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 30px;
+    margin-top: 10vh; /* VH serve para ser sempre 10% da tela de cada usuário*/
+    border-radius: 13px;
+    text-align: center;
+}
+
+/* FORM */
+
+form {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input { 
+    border-bottom: 2px solid #323232; padding: 10px; 
+    font-size: 1rem;
+    margin-bottom: 12px;
+}
+
+input:focus {
+    border-bottom: 2px solid #08558b;
+}
+
+#forgot-pass {
+    text-align: right;
+    display:block;
+}
+
+input[type='submit'] {
+    text-align: center;
+    text-transform:uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #FFF;
+    background-color: #08558b;
+    cursor:pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #1B223C;
+    transition: .5s;
+}
+
+/* REDES SOCIAIS*/
+
+#container_social {
+    margin-bottom: 10px;
+}
+
+#container_social i {
+    margin-top: 20px;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color:#FFF;
+    margin: 18px 10px;
+    cursor:pointer;
+}
+
+.fa-facebook-f {
+    background-color: #3b5998;
+}
+
+.fa-linkedin-square {
+    background-color: #0077b5;
+}
+
+.fa-instagram {
+    background-color: rgb(228, 10, 46);
+}
+
+/* REGISTER */
+
+#container_register {
+    margin-bottom: 10px;    
+}
+
+#text_register {  
+    font-weight:bold;
+    border-radius: 20px;
+}
+
+#container_register p {margin-bottom: 10px;}
